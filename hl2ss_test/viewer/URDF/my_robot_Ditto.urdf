@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot name="Ditto_result">
+  <link name="static">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="/home/vboxuser/Desktop/Semester_Project/Ditto_ROS/hl2ss_test/viewer/URDF/Fixed/static.stl"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="mobile">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="/home/vboxuser/Desktop/Semester_Project/Ditto_ROS/hl2ss_test/viewer/URDF/Mobile/mobile.stl"/>
+      </geometry>
+      <origin xyz="0.002683827968955592 0.12724737916379347 -0.008261245462979652" rpy="1.5852819594031207 1.5181613827705238 -3.1270869353141295"/>
+    </visual>
+  </link>
+  <joint name="static_to_mobile" type="continuous">
+    <parent link="static"/>
+    <child link="mobile"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.008108623325824738 0.003211802337318659 -0.1272449642419815" rpy="1.571558400721958 4.0144685343034494e-05 -1.6234258698000457"/>
+  </joint>
+</robot>

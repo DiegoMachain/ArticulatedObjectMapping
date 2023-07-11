@@ -1,0 +1,25 @@
+<robot name="Ditto_result">
+  <link name="static">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="/home/vboxuser/Desktop/Semester_Project/Ditto_ROS/hl2ss_test/viewer/URDF/Fixed/static.stl"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="static_to_mobile" type="continuous">
+    <parent link="static"/>
+    <child link="mobile"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+
+  <link name="mobile">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="/home/vboxuser/Desktop/Semester_Project/Ditto_ROS/hl2ss_test/viewer/URDF/Mobile/mobile.stl"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
