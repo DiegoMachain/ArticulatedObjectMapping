@@ -1,0 +1,7 @@
+set(odio_urdf_SETUP_PY_SETUP_MODULE "setuptools")
+set(odio_urdf_SETUP_PY_VERSION "1.2.1")
+set(odio_urdf_SETUP_PY_SCRIPTS "")
+set(odio_urdf_SETUP_PY_PACKAGES "odio_urdf")
+set(odio_urdf_SETUP_PY_PACKAGE_DIRS "odio_urdf")
+set(odio_urdf_SETUP_PY_MODULES "")
+set(odio_urdf_SETUP_PY_MODULE_DIRS "")

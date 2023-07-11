@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointControllerState.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryAction.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryControllerState.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadAction.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommand.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandAction.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionAction.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionFeedback.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionGoal.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionResult.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/srv/QueryCalibrationState.js"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/srv/QueryTrajectoryState.js"
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_nodejs"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

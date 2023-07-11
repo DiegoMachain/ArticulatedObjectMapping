@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/devel
+
+Name: moveit_kinematics
+Description: Description of moveit_kinematics
+Version: 1.1.12
+Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_kinematics/lma_kinematics_plugin/include -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_kinematics/srv_kinematics_plugin/include -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include -I/home/vboxuser/anaconda3/envs/Ditto/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: moveit_core pluginlib roscpp

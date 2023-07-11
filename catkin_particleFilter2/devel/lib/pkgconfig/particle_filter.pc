@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/devel
+
+Name: particle_filter
+Description: Description of particle_filter
+Version: 0.0.0
+Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/particle_filter/include -I/home/vboxuser/anaconda3/envs/Ditto/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: 

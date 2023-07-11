@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/devel
+
+Name: chomp_motion_planner
+Description: Description of chomp_motion_planner
+Version: 1.1.12
+Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_planners/chomp/chomp_motion_planner/include
+Libs: -L${prefix}/lib -lchomp_motion_planner
+Requires: 

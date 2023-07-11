@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/manifest.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointControllerState.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryAction.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryActionFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryActionGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryActionResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryControllerState.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadAction.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadActionFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadActionGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadActionResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommand.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandAction.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionAction.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionActionFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionActionGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionActionResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionFeedback.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionGoal.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionResult.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/srv/QueryCalibrationState.l"
+  "/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/share/roseus/ros/pr2_controllers_msgs/srv/QueryTrajectoryState.l"
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_eus"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

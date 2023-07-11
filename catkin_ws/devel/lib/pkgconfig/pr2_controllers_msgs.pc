@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel
+
+Name: pr2_controllers_msgs
+Description: Description of pr2_controllers_msgs
+Version: 1.10.13
+Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs trajectory_msgs geometry_msgs message_runtime

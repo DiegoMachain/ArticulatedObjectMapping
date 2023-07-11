@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/Desktop/Semester_Project/catkin_ws/install
+
+Name: robotics_demo
+Description: Description of robotics_demo
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: ros_tcp_endpoint message_runtime

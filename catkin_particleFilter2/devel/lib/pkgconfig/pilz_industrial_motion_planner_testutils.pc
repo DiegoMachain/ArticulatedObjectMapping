@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/devel
+
+Name: pilz_industrial_motion_planner_testutils
+Description: Description of pilz_industrial_motion_planner_testutils
+Version: 1.1.12
+Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include -I/home/vboxuser/anaconda3/envs/Ditto/include
+Libs: -L${prefix}/lib -lpilz_industrial_motion_planner_testutils
+Requires: moveit_core moveit_msgs

@@ -1,0 +1,2 @@
+set(robotics_demo_MESSAGE_FILES "/home/vboxuser/Desktop/Semester_Project/catkin_ws/src/robotics_demo/msg/PosRot.msg;/home/vboxuser/Desktop/Semester_Project/catkin_ws/src/robotics_demo/msg/State.msg;/home/vboxuser/Desktop/Semester_Project/catkin_ws/src/robotics_demo/msg/UnityColor.msg")
+set(robotics_demo_SERVICE_FILES "/home/vboxuser/Desktop/Semester_Project/catkin_ws/src/robotics_demo/srv/ObjectPoseService.srv;/home/vboxuser/Desktop/Semester_Project/catkin_ws/src/robotics_demo/srv/PositionService.srv")
