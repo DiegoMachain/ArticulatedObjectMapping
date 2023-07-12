@@ -1,8 +1,0 @@
-prefix=/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/devel
-
-Name: moveit_ros_occupancy_map_monitor
-Description: Description of moveit_ros_occupancy_map_monitor
-Version: 1.1.12
-Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_particleFilter2/src/moveit/moveit_ros/occupancy_map_monitor/include -I/home/vboxuser/anaconda3/envs/Ditto/include/eigen3 -I/usr/local/include
-Libs: -L${prefix}/lib -lmoveit_ros_occupancy_map_monitor /usr/local/lib/liboctomap.so /usr/local/lib/liboctomath.so
-Requires: moveit_core moveit_msgs geometric_shapes tf2_ros
