@@ -13,4 +13,4 @@ There are different packages that need to be installed.
 3. Compile the catkin workspace using catkin_make.
 4. Install hl2ss, follow the instructions on the folder hl2ss_test on this repository to correctly install.
 5. Follow the instructions of the [Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub/tree/main/tutorials/ros_unity_integration) to setup the ROS connection and to create the ROS messages.
-6. If the QR tracking stops working on the application for some reason, the tutorial to make it work with the HoloLens is [here] (https://codeholo.com/2021/03/27/qrcode-tracking-with-hololens-2-xr-sdk-and-mrtk-v2-5/)
+6. If the QR tracking stops working on the application for some reason, the tutorial to make it work with the HoloLens is [here](https://codeholo.com/2021/03/27/qrcode-tracking-with-hololens-2-xr-sdk-and-mrtk-v2-5/).
