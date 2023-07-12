@@ -15,7 +15,7 @@ There are different packages that need to be installed.
 
 
 The unity project is located in the QRCodeXRSDX folder, the following packages were used in this project:
-1. hl2ss: follow the instructions on the folder hl2ss_test on this repository to correctly install. This folder already contains everything you need from Ditto
+1. hl2ss: follow the instructions on the hl2ss_test folder on this repository to correctly install. This folder already contains everything you need from Ditto
 2. Unity-Robotics-Hub: follow the instructions of the [Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub/tree/main/tutorials/ros_unity_integration) to setup the ROS connection and to create the ROS messages.
 3. QR tracking with HoloLens: the tutorial is [here](https://codeholo.com/2021/03/27/qrcode-tracking-with-hololens-2-xr-sdk-and-mrtk-v2-5/).
 
