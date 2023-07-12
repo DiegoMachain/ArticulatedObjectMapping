@@ -9,5 +9,7 @@ after interacting with the mobile part of the object. The scanning is performed 
 There are different packages that need to be installed.
 
 1. Install ROS melodic
-2. Create a catkin workspace and add the content of the src folder of this repo into the src folder of your catkin workspace.
-2. Install hl2ss, follow the instructions on the folder hl2ss_test on this repository to correctly install 
+2. Create a catkin workspace and add the content of the catkin_src folder of this repo into the src folder of your catkin workspace.
+3. Compile the catkin workspace using catkin_make.
+4. Install hl2ss, follow the instructions on the folder hl2ss_test on this repository to correctly install.
+5. Follow the instructions of the [Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub/tree/main/tutorials/ros_unity_integration) to setup the ROS connection and to create the ROS messages 
