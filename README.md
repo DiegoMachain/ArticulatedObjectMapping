@@ -87,7 +87,8 @@ python pcd_listener.py
 7. Place the QR code on a flat surface and press the Scan button and read the QR code.
 8. See the object of interest with the HoloLens, so the point cloud includes the object before we create the bounding box.
 9. Press the "Start Bbox scan". A window on the server will appear.
-10. Select corners of the object in the server side while holding the Shift key.
+10. Select corners of the object in the server side while holding the Shift key, it should look like this:
+![My Image](images/Edges.png)
 11. When you have selected all points, press Q to close the window and save the bounding box.
 12. Press Stop Bbox scan.
 13. Place the object in the rest state so we can start scanning.
@@ -101,3 +102,7 @@ Once you closed all windows, the joint axis should move to the result from Ditto
 20. If you want to manipulate the joint axis, press the botton Move the Axis
 21. Now you can move the axis with your fingers as follows:
 ![My Image](images/HoloLens.png)
+22. Now a URDF model will be saved in hl2ss_test/viewer/URDF/my_robot_Ditto.urdf
+
+You can obtain results of URDF models like the following:
+![My Image](images/URDF.png)
