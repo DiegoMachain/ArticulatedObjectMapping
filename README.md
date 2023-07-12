@@ -64,3 +64,40 @@ python SubscriberServiceAxis.py
 
 ### Running Ditto and human correction
 
+1. Open a terminal on your server, source your terminal to the catkin workspace so it can work properly with ROS:
+```
+cd path_to_catkin_workspace
+source devel/setup.bash
+```
+2. Open another two more terminals and source them too using the point 1.
+3. Move the directory of the last two terminals to the following directory:
+```
+cd ..
+cd hl2ss_test/viewer
+```
+4. Start the HoloLens application.
+5. Start the script that builds the point clouds and controls the sequence from the server side:
+```
+python open3d_integrator_pv_ROS.py
+```
+6. Start Ditto:
+```
+python pcd_listener.py
+```
+7. Place the QR code on a flat surface and press the Scan button and read the QR code.
+8. See the object of interest with the HoloLens, so the point cloud includes the object before we create the bounding box.
+9. Press the "Start Bbox scan". A window on the server will appear.
+10. Select corners of the object in the server side while holding the Shift key.
+11. When you have selected all points, press Q to close the window and save the bounding box.
+12. Press Stop Bbox scan.
+13. Place the object in the rest state so we can start scanning.
+14. Press Start First Interaction so you can record the point cloud before interaction, try to look at the object for some seconds.
+15. Press Stop First Interaction.
+16. Move the mobile part of the object so the second point cloud is different than the first one.
+17. Press Start Second Interaction so you can record the point cloud after interaction, try to look at the object for some seconds.
+18. Press Send to Ditto. The saved point clouds will be sent to Ditto to process.
+19. Once Ditto process is finished, you can first visualize the results on windows on the server. You can close them pressing the key Q.
+Once you closed all windows, the joint axis should move to the result from Ditto.
+20. If you want to manipulate the joint axis, press the botton Move the Axis
+21. Now you can move the axis with your fingers as follows:
+![My Image](images/HoloLens.png)
