@@ -108,7 +108,6 @@ You can obtain results of URDF models like the following:
 ![My Image](images/URDF.png)
 
 ## References
-This project uses the HoloLens 2 Research Mode API and the Cannon library, both available at the HoloLens2ForCV repository.
 
 [1] Z. Jiang, C.-C. Hsu, and Y. Zhu, “Ditto: Building digital twins of articulated objects from interaction.” arXiv, 2022.
 
