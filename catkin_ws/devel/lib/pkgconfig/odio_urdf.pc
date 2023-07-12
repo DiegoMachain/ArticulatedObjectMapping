@@ -1,8 +1,0 @@
-prefix=/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel
-
-Name: odio_urdf
-Description: Description of odio_urdf
-Version: 1.2.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

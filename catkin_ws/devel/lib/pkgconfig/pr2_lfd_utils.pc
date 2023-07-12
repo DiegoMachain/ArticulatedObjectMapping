@@ -1,8 +1,0 @@
-prefix=/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel
-
-Name: pr2_lfd_utils
-Description: Description of pr2_lfd_utils
-Version: 0.0.1
-Cflags: -I/home/vboxuser/Desktop/Semester_Project/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs geometry_msgs
