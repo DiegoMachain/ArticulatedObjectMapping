@@ -109,5 +109,7 @@ You can obtain results of URDF models like the following:
 
 ## References
 This project uses the HoloLens 2 Research Mode API and the Cannon library, both available at the HoloLens2ForCV repository.
+
 [1] Z. Jiang, C.-C. Hsu, and Y. Zhu, “Ditto: Building digital twins of articulated objects from interaction.” arXiv, 2022.
+
 [2] K. Hausman, S. Niekum, S. Osentoski, and G. S. Sukhatme, “Active articulation model estimation through interactive perception,” in 2015 IEEE International Conference on Robotics and Automation (ICRA), 2015, pp. 3305–3312.
