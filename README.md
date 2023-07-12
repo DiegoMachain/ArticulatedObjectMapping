@@ -8,9 +8,9 @@ after interacting with the mobile part of the object. The scanning is performed 
 ## Installation (Ubuntu 18.04)
 There are different packages that need to be installed.
 
-1. Clone this repository in your computer
-2. Install ROS melodic
-3. Create a catkin workspace and add the content of the catkin_src folder of this repo into the src folder of your catkin workspace.
+1. Clone this repository into your computer.
+2. Install ROS melodic.
+3. Create a catkin workspace and add the folders catkin_src, odio_urdf, particle_filter and articulation_model_msgs of this repository to the src folder of your catkin workspace.
 4. Compile the catkin workspace using catkin_make.
 
 
