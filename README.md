@@ -1,6 +1,6 @@
 # Learning-based Articulated Object Mapping with the HoloLens
 
-## Abstract
+## Overview
 
 This work uses Ditto: Building Digital Twins of Articulated Objects from Interaction to create a segmented mesh reconstruction of articulated objects, along with axis parameters for prismatic or rotational joints. Ditto needs two distinct inputs as point clouds from the object, where one input is at rest state and the other 
 after interacting with the mobile part of the object. The scanning is performed using the HoloLens 2, joint axis result from Ditto can be seen in the HoloLens for a double check and correction. Finally, a URDF model of the object is saved.
@@ -8,20 +8,26 @@ after interacting with the mobile part of the object. The scanning is performed 
 ## Installation (Ubuntu 18.04)
 There are different packages that need to be installed.
 
-1. Clone this repository into your computer.
+1. Create a conda environment and install required packages.
+```
+conda env create -f conda_env_gpu.yaml -n Ditto
+```
 2. Install ROS melodic.
 3. Create a catkin workspace and add the folders catkin_src, odio_urdf, particle_filter and articulation_model_msgs of this repository to the src folder of your catkin workspace.
 4. Compile the catkin workspace using catkin_make.
 
 
 The unity project is located in the QRCodeXRSDX folder, the following packages were used in this project:
-1. hl2ss: follow the instructions on the hl2ss_test folder on this repository to correctly install. This folder already contains everything you need from Ditto
+1. hl2ss: follow the instructions in the hl2ss_test folder on this repository to correctly install it in Unity if necessary. This folder is also combined with Ditto.
 2. Unity-Robotics-Hub: follow the instructions of the [Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub/tree/main/tutorials/ros_unity_integration) to setup the ROS connection and to create the ROS messages.
 3. QR tracking with HoloLens: the tutorial is [here](https://codeholo.com/2021/03/27/qrcode-tracking-with-hololens-2-xr-sdk-and-mrtk-v2-5/).
 
 
 ## Instructions
-1. Follow these [instructions](https://github.com/DiegoMachain/ArticulatedObjectMapping/blob/main/hl2ss_test/instructions.md) from hl2ss to create the necessary calibration folders for the HoloLens camera.
+1. Follow these [instructions](https://github.com/ethz-asl/hl-aomapping/blob/main/hl2ss_test/instructions.md) from hl2ss to create the necessary calibration folders for the HoloLens camera.
+
+2. Follow the [instructions](https://github.com/UT-Austin-RPL/Ditto/tree/master) from Ditto to download the pre-trained model and saved it into hl2ss_test/viewer/Data (You have to create the Data folder).
+Also make sure you Build the ConvONets dependents.
 
 The Unity application should look as follows:
 ![My Image](images/HoloLensApp.png)
