@@ -24,7 +24,7 @@ The unity project is located in the QRCodeXRSDX folder, the following packages w
 
 
 ## Instructions
-1. Follow these [instructions](https://github.com/ethz-asl/hl-aomapping/blob/main/hl2ss_test/instructions.md) from hl2ss to create the necessary calibration folders for the HoloLens camera.
+1. Follow these [instructions](https://github.com/DiegoMachain/ArticulatedObjectMapping/blob/main/hl2ss_test/instructions.md) from hl2ss to create the necessary calibration folders for the HoloLens camera.
 
 2. Follow the [instructions](https://github.com/UT-Austin-RPL/Ditto/tree/master) from Ditto to download the pre-trained model and saved it into hl2ss_test/viewer/Data (You have to create the Data folder).
 Also make sure you Build the ConvONets dependents.
